@@ -1,0 +1,17 @@
+
+citHeader("To cite idar in publications use:")
+citEntry(entry = "article",
+         title = "Identification Analysis and Structural Causal Model Estimation in R",
+         author = personList(as.person("Diogo Ferrari")),
+         journal = "Working paper",
+         year = "2022",
+         volume = "",
+         number = "",
+         pages = "",
+         url = "",
+         textVersion = paste("Ferrari, Diogo (2022).", 
+                             "Identification Analysis and Structural Causal Model Estimation in R",
+                             "Working paper")
+         )
+
+

@@ -1,0 +1,30 @@
+Package: idar
+Title: Identification Analysis and Structural Causal Model Estimation in R
+Version: 0.0.0.9000
+Authors@R: c(person(given="Diogo", family="Ferrari", email="diogoferrari@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-2454-0776")))
+Description: End-to-end estimation of structural causal models (SCM), from the specification of the data generating process (DGP) using a directed acyclic graph (DAGs) to identification analysis, selection of adjustment variables (selection on observables), estimation of causal effects, and estimation results summary and plotting.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Imports: 
+    dagitty,
+    dosearch,
+    dplyr,
+    ggdag,
+    ggplot2,
+    ggpubr,
+    glue,
+    lavaan,
+    latex2exp,
+    magrittr,
+    patchwork,
+    stringr,
+    tibble,
+    tidyr,
+    tidyverse
+RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

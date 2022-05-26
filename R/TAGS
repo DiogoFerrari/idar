@@ -1,0 +1,27 @@
+
+identification.R,511
+identification <- functionidentification31,749
+identification_reg_formulas <- functionidentification_reg_formulas51,1240
+identification_paths <- functionidentification_paths104,3266
+identification_reg_formula_path_effects <- functionidentification_reg_formula_path_effects120,3823
+get_total_effect_coef <- functionget_total_effect_coef180,6284
+dosearch_getdata <- functiondosearch_getdata197,6830
+get_id_reg_formula <- functionget_id_reg_formula209,7139
+get_id_scm <- functionget_id_scm216,7330
+
+plots.R,181
+plot_scm  <- functionplot_scm2,1
+plot_scm_ida  <- functionplot_scm_ida38,1429
+plot_dag <- functionplot_dag92,3226
+plot_identification <- functionplot_identification207,7670
+
+src_utils.R,273
+get_structure <- functionget_structure4,3
+get_dag_reg_formula <- functionget_dag_reg_formula29,870
+scm2latex <- functionscm2latex38,1135
+get_dag_scm <- functionget_dag_scm46,1276
+dag2lavaan <- functiondag2lavaan66,1807
+check_nodes <- functioncheck_nodes93,2872
+
+zzz.R,36
+.onAttach<- function.onAttach5,31

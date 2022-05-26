@@ -1,0 +1,7 @@
+
+dev.R
+.R/
+.data/
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
