@@ -62,14 +62,3 @@ localfit(fit)
 
 #+END_SRC
 
-cb
-Here is an example of the output:
-
-#+BEGIN_SRC R :exports code
-plot_identification('X', 'Y', dag, T, T, fit=fit)
-
-#+END_SRC
-
-#+ATTR_ORG: :width 400/500/600/200/250/300/
-#+ATTR_LATEX: :width 1\textwidth :placement [ht!]
-[[./man/figures/fig-dag-estimation-example.png]]
