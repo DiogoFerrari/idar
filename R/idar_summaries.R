@@ -86,7 +86,6 @@ print.ida <- function(x, ...)
 #' 
 #' @param ... further arguments passed to or from other methods
 #' 
-#' @inheritParams print.ida
 #'  
 #' @export
 ## ** func
@@ -305,7 +304,7 @@ localfit <- function(object,...)
 #'  
 #' @export
 ## ** func
-residuals <- function(object, ...)
+residuals.ida <- function(object, ...)
 {
     res = lavaan::lavResiduals(object$fit)
     print(res)

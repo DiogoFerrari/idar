@@ -5,7 +5,7 @@
 
 * Overview
 
-The ~idar~ package implements a end-to-end estimation of structural causal models (SCM), from the specification of the data generating process (DGP) using a directed acyclic graph (DAGs) to identification analysis, selection of adjustment variables (selection on observables), estimation of causal effects, and estimation results summary and plotting.
+The ~idar~ implements identification analysis and structural causal model estimation in R. The software is particularly useful when the analysis relies on selection on observables for causal inference, making it easy to check if a causal effect is identifiable for any given assumption about the DGP encoded in a DAG. The package provides an easy-to-use parametric estimation procedure using a linear structural equations model if a causal effect is identifiable. More specifically, it provides an end-to-end estimation of structural causal models (SCM), which includes specification of the data generating process (DGP) using directed acyclic graphs (DAGs), identification analysis, selection of adjustment variables (selection on observables), estimation of causal effects, and computation of numeric and graphical summaries of the estimation results.
 
 Most of the functions of the ~idar~ package work as an envelop other functionalities that are distributed in various other R packages, including [[http://www.dagitty.net/][dagitty]] to with with directed acyclic graphs (DAGs), [[https://cran.r-project.org/web/packages/dosearch/index.html][dosearch]] for identification analysis, [[https://ggdag.malco.io/index.html][ggdag]] for visualization of DAGs, and [[https://lavaan.ugent.be/][lavaan]] for estimation of structural equation models (SEM).
 
@@ -57,6 +57,7 @@ print(fit)
 plot(fit)
 plot_identification('X', 'Y', dag, T, T, fit=fit)
 
+## fit measures
 globalfit(fit)
 localfit(fit)
 
